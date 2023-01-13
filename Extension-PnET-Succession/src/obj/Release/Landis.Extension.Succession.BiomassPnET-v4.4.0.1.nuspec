@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Landis.Extension.Succession.BiomassPnET-v4</id>
+    <version>4.0.1</version>
+    <authors>Brian Miranda, Eric Gustafson, Arjan de Bruijn</authors>
+    <licenseUrl>https://github.com/LANDIS-II-Foundation/Extension-PnET-Succession/blob/master/LICENSE</licenseUrl>
+    <projectUrl>http://www.landis-ii.org/</projectUrl>
+    <description>Package Description</description>
+    <releaseNotes>.NET Standard 2.0 update</releaseNotes>
+    <copyright>Landis-II-Foundation</copyright>
+    <tags>LANDIS-II Landis Extension Succession PnET</tags>
+    <repository type="git" url="https://github.com/LANDIS-II-Foundation/Extension-PnET-Succession" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Landis.Core" version="2.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\cgjung\source\repos\Core-Model-v7\Extension-PnET-Succession\deploy\Landis.Extension.Succession.BiomassPnET-v4.dll" target="lib\netstandard2.0\Landis.Extension.Succession.BiomassPnET-v4.dll" />
+  </files>
+</package>
