@@ -1,0 +1,729 @@
+>>LC Initial Communities for post las conchas landscape
+>> a.keyser
+
+LandisData	"Initial Communities"
+
+>> Gras Shrub (1)
+MapCode 100001
+quergamb  10 30 100
+
+
+>>Aspen woodland (22)
+MapCode  100022
+poputrem 50 80
+ 
+>> Mesic Mixed Conifer (32.4)
+MapCode 139634
+poputrem 60 70 80
+pinuflex 80 90 100 120 150
+pinupond 60 70 80
+pseumenz 70 80 90
+quergamb 110
+abieconc 130
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 127548
+pseumenz 70 80 90 100
+pinupond 80 100
+pinuflex 100
+abieconc 90
+ 
+>> Dry Mixed Conifer (30.2)
+MapCode 119833
+pinupond 60 70
+pseumenz 90 130
+ 
+>> Aspen Mixed Conifer (38.4)
+MapCode 140759
+abieconc 50 60 70 80
+poputrem 50 80
+ 
+>> Pinyon Juniper (35.3)
+MapCode 118306
+pinuedul 80 90
+juniscop 70
+pseumenz 80
+ 
+>> Dry Mixed Conifer (30.4)
+MapCode 141463
+quergamb 30
+abieconc 50 60 70 80
+pseumenz 90 100
+pinuflex 80 90
+pinupond 60 70 80 90
+ 
+>> Dry Mixed Conifer (30.4)
+MapCode 140761
+abieconc 50 60 70 80 100 110
+pinupond 60 70 80
+pseumenz 70 80 90 100 130
+pinuflex 80
+ 
+>> Pinyon / Juniper Woodland (35.3)
+MapCode 123494
+pinuedul 90 100 110 120 140
+ 
+>> Ponderosa pine (34.3)
+MapCode 140744
+juniscop 20 70 80 100 120 130 150 200
+pinupond 60 70 80 90 100
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 141450
+pseumenz 100 110
+pinupond 60 70 80 90 100
+quergamb 20 30 40
+juniscop 90
+ 
+>> Ponderosa pine (34.4)
+MapCode 121628
+pinupond 70 80 90
+quergamb 20 30 40 50
+pinuedul 60 80 90
+juniscop 70 80 120
+junimono 40
+ 
+>> Ponderosa pine (34.3)
+MapCode 119581
+quergamb 30 40 50 70
+juniscop 130
+pinupond 50 60 70 90
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 118373
+pinupond 50 60 70 80 90 100 110
+juniscop 40 90 130 150 160
+pinuedul 80
+pseumenz 70 90 100
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 121626
+quergamb 20 30 40 50 60 70 80 90 100 160
+pinupond 40 60 70 80 90
+abieconc 50 90
+ 
+>> Engelmann Spruce / Subalpine Fir (28.5)
+MapCode 118569
+piceenge 80 90 100 110 120 130 140 150 160
+abielasi 90 100 110 120 130
+poputrem 80 90 100 110
+ 
+>> Pinyon / Juniper Woodland (35.3)
+MapCode 118571
+pinuedul 80 90 100 110 130 140 150
+juniscop 70 110 130 140 160 170 210
+ 
+>> Mesic Mixed Conifer (32.4)
+MapCode 119198
+abieconc 60 70 80 90
+quergamb 20 30 40 50
+pseumenz 70 90
+poputrem 60
+pinupond 70 80
+ 
+>> Engelmann Spruce / Subalpine Fir (28.5)
+MapCode 141452
+pseumenz 70 80 90 100 110 120 130 140 150 160 170
+abielasi 90 100
+piceenge 80 90 100 110 120
+poputrem 100 110
+ 
+>> Pinyon / Juniper Woodland (35.3)
+MapCode 117934
+pinuedul 90 100 110 120 170
+quergamb 20 100
+juniscop 120 130 170 210
+ 
+>> Mesic Mixed Conifer (32.4)
+MapCode 119846
+pseumenz 70 80 90 120 130 170
+piceenge 80 90 100 120
+poputrem 70 80 90 100
+abieconc 80 100 120
+ 
+>> Pinyon / Juniper Woodland (35.1)
+MapCode 140334
+junimono 80 90 110 120
+pinuedul 100
+ 
+>> Ponderosa Pine (34.3)
+MapCode 121329
+quergamb 20 30
+pinupond 90 110 150
+juniscop 120
+pinuedul 90 140
+ 
+>> Pinyon / Juniper Woodland (35.2)
+MapCode 121627
+pinuedul 60 80 90 100 110 130
+junimono 40 50 60 90 100 130
+ 
+>> Ponderosa Pine (34.3)
+MapCode 118305
+pinupond 60 70 90 100 110 120 130 160
+quergamb 40 50
+ 
+>> Engelmann spruce / Subalpine Fir (28.6)
+MapCode 116403
+piceenge 80 90 100 110 120 130
+ 
+>> Aspen / Mixed Conifer (38.4)
+MapCode 118496
+poputrem 60 70 80 90 110
+abieconc 50 60 80 100 120
+pseumenz 100 110
+pinupond 60 70 80
+quergamb 40
+ 
+>> Pinyon / Juniper Woodland (35.2)
+MapCode 118497
+junimono 20 30 40 50 60 70 80 90
+pinuedul 60 80 90 110
+ 
+>> Mesic Mixed Conifer (32.5)
+MapCode 139729
+piceenge 70 80 100 110 120 130 150
+abielasi 90 100 130 140
+poputrem 80 90 100 110
+pseumenz 90 120
+ 
+>> Dry Mixed Conifer (30.4)
+MapCode 116571
+pinupond 40 50 60 70 80 90
+pseumenz 70 80
+poputrem 80
+ 
+>> Aspen / Mixed Conifer (38.4)
+MapCode 123502
+abieconc 60 80 90 100 110 130 140
+poputrem 90 100 120
+pseumenz 80 120
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 118495
+pinustro 30 50 60
+pseumenz 60 70 80 90 100 110 130 140
+poputrem 70
+abieconc 50 70
+pinupond 60 90 110 120
+ 
+>> Ponderosa Pine (34.3)
+MapCode 140333
+juniscop 130
+pinupond 40 50 60 110 120
+quergamb 90 120
+ 
+>> Engelmann Spruce / Subalpine Fir (28.5)
+MapCode 123513
+piceenge 70 80 90
+poputrem 70
+abielasi 90 100 110 140
+ 
+>> Engelmann Spruce / Subalpine Fir (28.5)
+MapCode 116392
+piceenge 70 80 90 100 110 120 130 140
+abielasi 80 90 100 110 120 130 140
+poputrem 80 100
+pseumenz 120
+ 
+>> Ponderosa Pine (34.3)
+MapCode 118371
+juniscop 110 120 140 200
+quergamb 30 50
+pseumenz 70
+pinupond 60 70 80 90 100 110 120
+ 
+>> Pinyon / Juniper Woodland (35.3)
+MapCode 118570
+pinuedul 80 90 100 130
+junimono 70 100
+ 
+>> Ponderosa Pine (34.3)
+MapCode 117946
+pinupond 60 70 80 90
+quergamb 30
+ 
+>> Pinyon / Juniper Woodland (35.3)
+MapCode 119580
+pinuedul 60 70 80 90 100 110 120
+juniscop 70 110 130 150 170 190 200 210
+ 
+>> Pinyon / Juniper Woodland (35.3)
+MapCode 123503
+pinuedul 80 90 100 110 120 130 140 190
+junimono 40 50 60 70
+juniscop 90 120 160
+pseumenz 80
+ 
+>> Pinyon / Juniper Woodland (35.3)
+MapCode 123512
+juniscop 160 180 190 200 220 230 240 250
+pinuedul 80 90 100 110 120 140 160
+pseumenz 90 100
+quergamb 20 30 40 50
+pinupond 120
+ 
+>> Aspen / Mixed Conifer (38.4)
+MapCode 128806
+pseumenz 90 100 140
+poputrem 70 80 90 100
+abieconc 70 80 90 100 110
+pinupond 70
+ 
+>> Aspen / Mixed Conifer (38.5)
+MapCode 118494
+poputrem 60 70 80 90
+piceenge 80 90 100 110 130
+abielasi 70 80 90 100 110
+pinuflex 80
+ 
+>> Pinyon / Juniper Woodland (35.2)
+MapCode 118243
+junimono 60 70 80 90 100 110 130 150
+junioste 310 340 360 380 410 440
+pinuedul 80 110
+ 
+>> Pinyon / Juniper Woodland (35.2)
+MapCode 123495
+junimono 40 70 80 90 100 110 120 130 140 150 170 220
+ 
+>> Dry Mixed Conifer (30.4)
+MapCode 119844
+abieconc 50 60 70 80 90 100
+pseumenz 100
+pinupond 100
+ 
+>> Pinyon / Juniper Woodland (35.2)
+MapCode 140760
+pinuedul 70 80 90 100 110 140
+pseumenz 90
+juniscop 80 90 100 110 120 140 150 160 190 200
+junimono 40 50 70 90 100 120
+quergamb 20 30
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 139309
+pseumenz 70 80 100
+quergamb 30 40
+pinupond 50 60 70 80 90 100 130
+juniscop 100 130
+abieconc 60
+ 
+>> Pinyon / Juniper Woodland (35.2)
+MapCode 117935
+pinuedul 80 90 100
+junimono 50 70 80 90 120 140 180
+ 
+>> Pinyon / Juniper Woodland (35.2)
+MapCode 123135
+quergamb 20 30 40 50 70
+juniscop 80 120 130 150 160 210
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 123160
+pseumenz 70 80 100 110
+pinupond 70 80 90 100 110 120
+juniscop 20 90 120 140 160 170 180 200
+pinuedul 60
+quergamb 20 120
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 118564
+pseumenz 60 80 150 160
+pinupond 50 60 70 90 100
+juniscop 70 140 160
+quergamb 40 80 100 140
+abieconc 70
+ 
+>> Dry Mixed Conifer (30.2)
+MapCode 119848
+pinupond 60 70 80 90
+pseumenz 70 80 90 110
+quergamb 80 100 110 120
+juniscop 120 230
+ 
+>> Pinyon / Juniper Woodland (35.3)
+MapCode 141447
+pseumenz 80
+juniscop 40 70 90 110
+pinuedul 80 90 100 110 120 130 140 150
+quergamb 20 30 70 90 110
+ 
+>> Pinyon / Juniper Woodland (35.1)
+MapCode 117937
+junimono 40 50 70
+pinuedul 80
+ 
+>> Aspen / Mixed Conifer (38.4)
+MapCode 119845
+abieconc 50 60 70 80 90 100 110 120
+poputrem 70 80 90 100 110
+pseumenz 80
+ 
+>> Mesic Mixed Conifer (32.5)
+MapCode 141464
+piceenge 70 80 90 110 120 130 140 170
+pseumenz 70 80 90 110 140 150
+poputrem 60 70 80 90 100
+pinupond 140
+abieconc 50 60 70
+pinuflex 80 90 100
+abielasi 90
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 123501
+quergamb 20 30
+pseumenz 70 80 90 100
+pinupond 60 80
+pinuedul 90
+abieconc 90
+ 
+>> Pinyon / Juniper Woodland (35.3)
+MapCode 122655
+pinuedul 80 90 120 130 150 160 170
+juniscop 70 90 100 110 130 150 180 190 230
+pseumenz 110
+junimono 60 90 110
+pinupond 70 90 100 110
+quergamb 20 30
+ 
+>> Pinyon / Juniper Woodland (35.3)
+MapCode 140773
+pinuedul 60 80 90 100 110 120
+junimono 40 50 60 80 90 100 110 120 140
+ 
+>> Mesic Mixed Conifer (32.3)
+MapCode 121534
+pinuedul 80 100
+abieconc 50 60 70 80 90
+pseumenz 60 70 80 90 110 120
+pinupond 140
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 141359
+quergamb 20 30 40 50
+pseumenz 50 60 70 80 90 100 110 120
+pinuedul 90 100 130
+juniscop 70 90 110 120 140 150 170 250
+ 
+>> Pinyon / Juniper Woodland (35.2)
+MapCode 120919
+quergamb 20 30 40 70
+pinupond 60 70
+pinuedul 60 90
+juniscop 70 90 100 120
+ 
+>> Engelmann Spruce / Subalpine Fir (28.5)
+MapCode 141451
+piceenge 80 90 100 110 120
+pseumenz 80 110 120 140 150
+abielasi 80 90 100 150
+poputrem 80
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 141460
+pseumenz 70 80 90 100 110
+juniscop 20 30 80 90 100 120 140 150 160 180 200 220
+pinuedul 90 100 110 120 150
+quergamb 20 30 70
+pinupond 110
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 140757
+pinupond 90 100 120
+abieconc 100
+pseumenz 80
+ 
+>> Mesic Mixed Conifer (32.4)
+MapCode 138809
+piceenge 80 90 100 110 120 140 160
+pseumenz 70 80 90 100 110 140
+poputrem 70 80 100
+ 
+>> Aspen / Mixed Conifer (38.4)
+MapCode 144943
+poputrem 60 70 80
+pinupond 80 90 100 110
+abieconc 80
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 141512
+pseumenz 60 70 80 90
+quergamb 20 50
+abieconc 60 80
+pinupond 60 70 90 100 110
+juniscop 60
+ 
+>> Pinyon / Juniper Woodland (35.1)
+MapCode 127958
+pinuedul 80
+junimono 40 50 60 80 100 160
+ 
+>> Dry Mixed Conifer (30.4)
+MapCode 142571
+quergamb 20 30 70 80 90 100 130 140
+pinupond 80 90 100 110 150
+abieconc 70 80 90 100
+pseumenz 90
+poputrem 70 80
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 122501
+pseumenz 50 60 70 80 90 100 140
+pinupond 50 60 70 80 90 100 110 120
+poputrem 50 80
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 140586
+abieconc 60 70 80 90 100 110 120
+pinupond 60 110
+poputrem 70 80
+pseumenz 50 70 80
+ 
+>> Dry Mixed Conifer (30.4)
+MapCode 139760
+quergamb 20
+pseumenz 80 90 100
+ 
+>> Ponderosa Pine (34.3)
+MapCode 127952
+pinupond 60 70 80 90 100 110 120
+ 
+>> Dry Mixed Conifer (30.4)
+MapCode 138327
+pinupond 60 70 80 90 100 110
+pseumenz 70 80 90 100 110 120
+poputrem 70
+quergamb 70
+abieconc 60 70 80
+ 
+>> Pinyon / Juniper Woodland (35.1)
+MapCode 124499
+junimono 40 50 60 70 80 90 100 110 120 200
+pinuedul 80 90 100 110
+ 
+>> Engelmann Spruce / Subalpine Fir (28.4)
+MapCode 139394
+piceenge 80 90 100 110 120 130
+abielasi 90 100 110
+poputrem 60 70 80 90 100
+abieconc 80
+pseumenz 90
+ 
+>> Ponderosa Pine (34.2)
+MapCode 138326
+pinuedul 80 90 100 110
+pinupond 60 70 80 90 100
+ 
+>> Ponderosa Pine (34.3)
+MapCode 139804
+pinupond 60 70 80 100 110 120
+quergamb 20 30 50
+pseumenz 70
+ 
+>> Ponderosa Pine (34.3)
+MapCode 122305
+quergamb 20 30 40 50 60 70 80
+pinupond 40 60 70 80 90
+juniscop 30 70
+ 
+>> Dry Mixed Conifer (30.4)
+MapCode 141984
+poputrem 70 80 90 100
+abieconc 60 70 80 90 100 110 140
+pseumenz 60 90 100 120 150
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 138324
+pseumenz 70 80 90 100
+quergamb 20 30 40 50 60
+pinupond 70 80 90
+abieconc 60 70
+ 
+>> Pinyon / Juniper Woodland (35.1)
+MapCode 118250
+junimono 50 60 70 80 90 100 110 130 150
+ 
+>> Aspen / Mixed Conifer (38.3)
+MapCode 143838
+pinupond 40 50 60 70
+poputrem 50 60 70
+quergamb 20
+ 
+>> Mesic Mixed Conifer (32.5)
+MapCode 128032
+pseumenz 70 80 90 100 110 120 130 140 150 170
+poputrem 70 90 100 110 120 130
+abieconc 60 70 80 100 130
+ 
+>> Dry Mixed Conifer (30.4)
+MapCode 117100
+abieconc 80
+pseumenz 100 110
+ 
+>> Mesic Mixed Conifer (32.4)
+MapCode 140300
+abieconc 70 80 100
+piceenge 80 90 100 110
+poputrem 70 80
+pseumenz 70 80 90 110 120 170
+pinuflex 80
+pinupond 70 90 100 120
+ 
+>> Pinyon / Juniper Woodland (35.2)
+MapCode 127957
+pinuedul 60 80 90 100
+junimono 40 50 60 70 80 90 100 110 120 130 140 150 160 180
+ 
+>> Dry Mixed Conifer (30.4)
+MapCode 141508
+pinupond 40 50 70 80 90 110
+abieconc 50 60 70 80
+pseumenz 80 120
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 117096
+quergamb 20 30 40
+pseumenz 80 90 100
+pinupond 80 90 110
+ 
+>> Ponderosa Pine (34.3)
+MapCode 122456
+quergamb 20 30 70 90
+pinuedul 60 70 90
+pinupond 60 70 80 90 130
+pseumenz 80
+juniscop 170
+ 
+>> Dry Mixed Conifer (30.4)
+MapCode 141112
+pinupond 70 80 90 100 110
+piceenge 100
+ 
+>> Ponderosa Pine (34.3)
+MapCode 127459
+pinupond 50 60 70 80 90 120
+ 
+>> Pinyon / Juniper Woodland (35.1)
+MapCode 122888
+junimono 30 40 50 60 70 80 90 100
+pinuedul 70 80 90 100
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 140342
+quergamb 20 30 40 50 70
+juniscop 130 220
+pseumenz 60 70 80 90 100 110
+pinupond 60
+abieconc 80
+ 
+>> Aspen / Mixed Conifer (38.3)
+MapCode 139395
+poputrem 60 70 80 90 100
+abieconc 80 100
+pseumenz 70 80 90 110
+pinupond 60 80
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 123389
+abieconc 60 70 80
+pinupond 70 80 90 110 120
+pinuflex 90
+pseumenz 70 80 140
+ 
+>> Pinyon / Juniper Woodland (35.2)
+MapCode 122890
+pinuedul 80 100
+junimono 40 50 60 70 80 90 120 160
+pinupond 80 90
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 117196
+juniscop 130
+pseumenz 80 90
+quergamb 20 30 40
+pinupond 60 70 80 90 100 110
+ 
+>> Pinyon / Juniper Woodland (35.2)
+MapCode 143839
+junimono 40 50 60 70 80 90 100 110 120 130 140
+ 
+>> Pinyon / Juniper Woodland (35.2)
+MapCode 117099
+pinuedul 60 70 80 90 100 110 120
+junimono 40 50 60 70 90 100 210
+juniscop 90 140 150
+pseumenz 120
+ 
+>> Dry Mixed Conifer (30.3)
+MapCode 144942
+pinupond 50 60 70 80 90 100 110
+pseumenz 50 60 70 80 90 100
+quergamb 30
+ 
+>> Ponderosa Pine (34.2)
+MapCode 122885
+pseumenz 100
+pinupond 70 80 110
+ 
+>> Pinyon / Juniper Woodland (35.2)
+MapCode 127196
+pinuedul 60 80 90 100 120
+junimono 40 60 70 90 140 150
+quergamb 20 30
+pinupond 130
+ 
+>> Ponderosa Pine (34.3)
+MapCode 124497
+quergamb 20 30
+pinupond 60 70 80 100 110
+junimono 50
+pinuedul 100
+pseumenz 70
+ 
+>> Mesic Mixed Conifer (32.3)
+MapCode 141111
+picepung 50 60 70 80 90 140
+pseumenz 50 60 70 80 90 130
+pinuflex 70 80
+abieconc 50 80
+poputrem 70 80
+pinupond 80
+ 
+>> Ponderosa Pine (34.4)
+MapCode 122455
+quergamb 30 40 50 70 80
+pinupond 70 80 100 110
+ 
+>> Mesic Mixed Conifer (32.4)
+MapCode 122092
+poputrem 60 70 80
+pseumenz 70 80 90 100 110 120 130 140
+piceenge 70 80 90 110
+pinuflex 60 70 80 90
+abieconc 60
+pinupond 120
+ 
+>> Dry Mixed Conifer (30.4)
+MapCode 123563
+pseumenz 90 100
+pinuflex 80
+quergamb 30
+pinuedul 80
+abieconc 60 80
+ 
+>> Ponderosa Pine (34.3)
+MapCode 124493
+pinupond 70 80 100 110
+juniscop 70 90
+junidepp 20 30
+junimono 40
+ 
+>> Mesic Mixed Conifer (32.4)
+MapCode 144936
+pseumenz 70 80 100 110 140
+pinuflex 60 70 80 90 100 110 140 160
+abieconc 60 70 90
+pinupond 60 70 80 90 100
+piceenge 90
+poputrem 60 70 80

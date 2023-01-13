@@ -1,0 +1,36 @@
+>> Last edited: 2 August 2018										
+>> Author: a.keyser										
+										
+LandisData	EcoregionParameters									
+										
+EcoregionParameters	RootingDepth	SoilType	LeakageFrac	PrecLossFrac	SnowSublimFrac	ClimateFileName				
+>>			(mm)									
+eco1			1000	SILO	0.05	0	0.15	../eco1_met_RCP_4_5.txt
+eco2			1000	LOAM	0.05	0	0.15	../eco2_met_RCP_4_5.txt
+eco3			1000	SALO	0.05	0	0.15	../eco3_met_RCP_4_5.txt
+eco4			1000	SALO	0.05	0	0.15	../eco4_met_RCP_4_5.txt
+eco5			1000	SALO	0.05	0	0.15	../eco5_met_RCP_4_5.txt
+eco6			1000	SNCL	0.05	0	0.15	../eco6_met_RCP_4_5.txt
+eco7			1000	LOAM	0.05	0	0.15	../eco7_met_RCP_4_5.txt
+eco8			1000	SALO	0.05	0	0.15	../eco8_met_RCP_4_5.txt
+eco9			1000	SNCL	0.05	0	0.15	../eco9_met_RCP_4_5.txt
+eco10			1000	SALO	0.05	0	0.15	../eco10_met_RCP_4_5.txt
+eco11			1000	SALO	0.05	0	0.15	../eco11_met_RCP_4_5.txt
+eco12			1000	LOAM	0.05	0	0.15	../eco12_met_RCP_4_5.txt
+eco13			1000	LOAM	0.05	0	0.15	../eco13_met_RCP_4_5.txt
+eco14			989		CLLO	0.05	0	0.15	../eco14_met_RCP_4_5.txt
+eco15			989		CLLO	0.05	0	0.15	../eco15_met_RCP_4_5.txt
+eco16			1000	SALO	0.05	0	0.15	../eco16_met_RCP_4_5.txt
+eco17			1000	SALO	0.05	0	0.15	../eco17_met_RCP_4_5.txt
+eco18			1000	SALO	0.05	0	0.15	../eco18_met_RCP_4_5.txt
+eco19			1000	SALO	0.05	0	0.15	../eco19_met_RCP_4_5.txt
+eco20			1000	SALO	0.05	0	0.15	../eco20_met_RCP_4_5.txt
+eco21			1000	SALO	0.05	0	0.15	../eco21_met_RCP_4_5.txt
+eco22			430		SILO	0.05	0	0.15	../eco22_met_RCP_4_5.txt
+eco23			1000	LOAM	0.05	0	0.15	../eco23_met_RCP_4_5.txt
+eco24			1000	SNCL	0.05	0	0.15	../eco24_met_RCP_4_5.txt
+eco25			1000	SNCL	0.05	0	0.15	../eco25_met_RCP_4_5.txt
+
+										
+>> the values from the soil database often went above 1000mm, but the model threw an error stating that max is 1000. so, 								
+>> I have capped all values at 1000.										

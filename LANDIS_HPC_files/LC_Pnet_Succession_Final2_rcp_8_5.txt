@@ -1,0 +1,22 @@
+>>Last edited: 30 oct 2018				
+>>Author: a.keyser					
+					
+LandisData		"PnET-Succession"		
+					
+PnET-Succession			Value		
+>>--------------------------------------------------------					
+Timestep			1		>>years
+StartYear			2012		>>year
+SeedingAlgorithm		WardSeedDispersal		
+Latitude			36		
+>>MaxDevLyrAv			6000		>>there should be values in other params better for this that cecile has changed
+					
+>>PNEToutputsites			        ../../../../LC_PnET_Outputsites.txt		
+					
+InitialCommunities			../../../../LC_InitialCommunities.txt		
+InitialCommunitiesMap			../../../../lc_initcommF.tif		
+					
+PnETGenericParameters			../../../../LC_Pnet_genericParameters.txt		
+PnETSpeciesParameters			../../../../LC_PnET_speciesparams_Final.txt		
+EcoregionParameters			../../../../LC_ecoReg_parameters_rcp_8_5.txt		
+

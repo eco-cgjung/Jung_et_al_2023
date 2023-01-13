@@ -1,0 +1,37 @@
+>> Last Updated: 6 August 2018					
+>> Author: a.keyser					
+				
+LandisData		"Ecoregions"		
+					
+					
+>>Active	MapCode	Name	Description		
+>>-------------------------------------------------------------------------					
+no	0	NonVeg	"Non-vegetated or outside area of interest"		
+yes	1	eco1	"Mid 1, PIPO, soil 1 "		                        
+yes	2	eco2	"Mid 2, MixC,PP, soil4"		
+yes	3	eco3	"Hi 1, MixC,SprFir, soil 5"		
+yes	4	eco4	"Mid 1, ASP, MIXC, PP, soil 5"		
+yes	5	eco5	"Hi 2,  SprFir, soil 5"		
+yes	6	eco6	"Mid 2,  PP,MMC,Grs, soil3"		
+yes	7	eco7	"Mid 1, PJ, soil 4"		
+yes	8	eco8	"Mid 1 Draw, PP,MIXC,GRS, soil5"		
+yes	9	eco9	"Hi 1, PP,Asp, soil 3"		
+yes	10	eco10	"Low 2 draw, PJ, soil5"		
+yes	11	eco11	"Mid 2, MixC,GRS, PP,ASP, soil 5"		
+yes	12	eco12	"Low 1, PJ, soil 4 "		
+yes	13	eco13	"Mid 2, Grass, soil 4"		
+yes	14	eco14	"Mid 1, PP, soil2"		
+yes	15	eco15	"Mid 1,  PJ,PP,GRS, soil 2"		
+yes	16	eco16	"Mid 2, Mixc,GRS, soil5"		
+yes	17	eco17	"Mid 2,  MIXC,GRS,ASP,PP, soil 5 "		
+yes	18	eco18	"Hi 1, MixC,GRS,SprFir, soil 5"		
+yes	19	eco19	"Hi 1, MIXC,GRS, soil5"		
+yes	20	eco20	"Mid 2, MixC,PP,GRS, soil 5"		
+yes	21	eco21	"Low 2, PP,PJ, soil5"		
+yes	22	eco22	"Mid 2,  dMIXC, soil 1"		
+yes	23	eco23	"Mid 1, PJ,PP, soil 4"		
+yes	24	eco24	"Low 1, PJ, PP,GRS, soil 3"		
+yes	25	eco25	"Low 2,  PP, soil 3 "		
+
+<<Mid 1 is lower have of middle elevation group , Mid 2 is upper half
+<<three elevation groups---low, mid, hi. Each id'd by lower (1) or upper (2) half 

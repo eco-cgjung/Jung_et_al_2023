@@ -1,0 +1,71 @@
+LandisData  "Dynamic Fuel System" 
+
+
+Timestep  1
+
+>> 		 Fuel 
+>> Species 	 Coefficient 
+>> -------- 	----------- 
+   pinupond		1.00
+   quergamb		1.00
+   junimono		1.00
+   pinuedul 	        1.00
+   piceenge		1.00
+   poputrem		1.00
+   abielasi		1.00
+   abieconc		1.00
+   pseumenz		1.00
+   juniscop		1.00
+   pinuflex 	        1.00
+   picepung		1.00
+   junioste             1.00 
+   pinustro             1.00
+   junidepp             1.00
+
+
+HardwoodMaximum 51  
+
+DeadFirMaxAge 0  
+
+FuelTypes
+
+>> Note: It seems that every time step the model will re-classify the fuel type based on newly updated communities
+>> 
+
+>> Fuel Type  BaseFuel  		Age Range		Species
+>> ---------  --------     		---------		----------
+	50	Open			0 to 11                 quergamb junimono pinuedul pinupond juniscop poputrem piceenge abielasi abieconc pseumenz pinuflex picepung pinustro junioste junidepp
+
+	1	Deciduous		0 to 21			quergamb 		
+	2	Deciduous		21 to 1000		quergamb 
+	
+	3	Deciduous		0 to 21			quergamb junimono pinuedul juniscop pseumenz junioste pinupond		
+	4	Deciduous		21 to 1000		quergamb junimono pinuedul juniscop pseumenz junioste pinupond			
+		
+	5	Conifer			0 to 11			pinupond quergamb juniscop junimono pinuedul junidepp
+	6	Conifer			11 to 41		pinupond quergamb juniscop junimono pinuedul junidepp	
+	7	Conifer			41 to 1000		pinupond quergamb juniscop junimono pinuedul junidepp
+	
+	8	Deciduous		0 to 11			poputrem quergamb
+	9	Deciduous		11 to 41		poputrem quergamb	
+	10	Deciduous		41 to 1000		poputrem quergamb	
+
+	11	Deciduous		0 to 11			poputrem piceenge abielasi abieconc pseumenz pinuflex picepung pinupond quergamb pinustro juniscop pinuedul
+	12	Deciduous		11 to 41		poputrem piceenge abielasi abieconc pseumenz pinuflex picepung pinupond quergamb pinustro juniscop pinuedul	
+	13	Deciduous		41 to 1000		poputrem piceenge abielasi abieconc pseumenz pinuflex picepung pinupond	quergamb pinustro juniscop pinuedul
+
+	 				 
+
+DisturbanceConversionTable
+>> Fuel Type	Duration       Disturbance Description
+>> ---------	---------	--------
+
+
+
+
+
+
+MapFileNames	fire/FuelType-{timestep}.img
+PctConiferFileName	fire/PctConifer-{timestep}.img
+PctDeadFirFileName	fire/PctDeadFir-{timestep}.img 
+

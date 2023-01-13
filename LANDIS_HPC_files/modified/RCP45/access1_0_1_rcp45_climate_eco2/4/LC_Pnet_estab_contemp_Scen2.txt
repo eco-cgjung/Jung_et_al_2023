@@ -1,0 +1,29 @@
+>> Last Edited 30 oct 2018						
+>> Author :a.keyser						
+						
+LandisData     	Scenario					
+						
+Duration		88				
+						
+Species		        ../../../../LC_LANDIS_species_parameters_Final.txt				
+						
+Ecoregions		../../../../LC_ecoRegFinal.txt				
+EcoregionsMap		../../../../lc_ecoRegFinal.tif				
+						
+CellLength		100		<<meters, so cell area ~1ha	
+>>Succesion Extension			Initialization File			
+>>-------------------------		-------------------			
+"PnET-Succession"        		../../../../LC_Pnet_Succession_Final2_rcp_4_5.txt			
+						
+>>Disturbance Extensions		Initialization File			
+>>-------------------------		-------------------			
+"Dynamic Fire System"			../../../../LC_DFFS.txt			
+"Dynamic Fuel System"			../../../../LC_DFFS_Fuels.txt			
+						
+DisturbancesRandomOrder			yes			
+						
+>>Output Extensions			Initialization File			
+>>-------------------------		-------------------			
+"Output-PnET"			     ../../../../LC_Pnet_output_Final.txt			
+						
+RandomNumberSeed			33416			<<comment this out when running replicates!

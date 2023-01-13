@@ -1,0 +1,32 @@
+ >> Last modified:	27 oct 2018																			
+>> Author: 		a.keyser																			
+																					
+LandisData		PnETSpeciesParameters																			
+									        <<W/m2												
+PnETSpeciesParameters		FolN	SLWmax	SLWDel	Tofol	AmaxA	AmaxB	HalfSat	H3	H4	PsnTmin	PsnTopt	k	FracBelowG	FracFol	FrActWd		<<	HalfSat (umol/m2/sec)		
+pinustro			1.06	140	0	0.22	5.3	21.5	96	100	140	-10	25	6	0.33		0.05	0.00004		<<	437
+junidepp			1.06	86	0	0.167	5.3	15	66	150	700	-10	25	12	0.33		0.05	0.00004		<<	300
+junioste			1.06	86	0	0.167	5.3	15	66	150	280	-10	25	12	0.33		0.05	0.00004		<<	300
+pinupond			1.04	140	0	0.25	5.3	21.5	66	150	253	-10	24	10	0.39		0.053	0.0001		<<	300
+quergamb			2.73	95	0.2	0.75	5	15	44	150	500	0	24	4	0.56		0.03	0.00003		<<	200
+junimono			1.06	86	0	0.17	5.3	15	77	150	700	-10	25	12	0.55		0.04	0.0005		<<	350
+pinuedul			1.21	91	0	0.17	5.3	21.5	66	150	500	-10	25	6	0.55		0.04	0.0005		<<	300
+piceenge			0.9	110	0	0.18	5.3	21.5	44	150	200	-10	19	5	0.33		0.045	0.00004		<<	200
+poputrem			2.5	90	0.2	1	-46	70.9	77	150	190	2	22	4	0.4		0.03	0.00003		<<	350
+abielasi			1.39	98	0	0.18	5.3	21.5	44	150	200	-10	22	9	0.33		0.045	0.00004		<<	200
+abieconc			1.39	90	0	0.18	5.3	21.5	44	150	200	-10	24	9	0.33		0.053	0.00004		<<	200
+pseumenz			1.1	117	0	0.18	5.3	21.5	55	150	210	-10	21.2	9	0.33		0.053	0.00004		<<	250
+juniscop			1.06	86	0	0.18	5.3	10	66	150	280	-10	25	12	0.33		0.053	0.00004		<<	300
+pinuflex			1.06	91	0	0.18	5.3	21.5	66	150	220	-10	20	7.6	0.33		0.053	0.00004		<<	300
+picepung			1.75	100	0	0.18	5	21.5	55	150	500	-10	20	9	0.33		0.053	0.00004		<<	250
+																					
+																					
+>> Parameters for junioste, junidepp, and pinustrob are from the Rockies_LandisParameters workbook; modified where necessary to match cecile's changes (ie. AmaxA). 																					
+>> All other parameters are from Cecile's model testing. 																					
+>> Note that I have PAR in units of W/m2 in met files, so the HalfSat values needed to be converted here to W/m2 from umol/m2/sec. (*0.219)																					
+
+>>I am modifying the foliar N concentration of PSME in this to see if I can adjust the photosynthetic rates. from 1.25 to 1.10  
+>> This further decrease in foliar N brings it to the midpoint of min and max values in reference I found. 
+
+>> Increasing the FracBelowG for following species to 0.33: PICEENGE, abielasi, abieconc,pseumenz, juniscop, pinuflex,picepung
+>> PIST SLWmax lowered to PIPO values

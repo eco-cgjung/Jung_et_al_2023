@@ -1,0 +1,84 @@
+LandisData "Dynamic Fire System"
+
+Timestep 1
+EventSizeType 		size_based 
+
+BuildUpIndex yes 	<< yes or no; Y or N
+WeatherRandomizer 0 	<< optional (0 – 4)
+
+
+>> 	Fire region| Fire Size    | Seasonal Foliar Moisture Content (FMC) Data: Hi, Lo, and Proportion (Pr) | Other Ecorgion Data
+>>       	   |              | Spring (Sp)            Summer (Su)             Fall (Fa)                 |           
+>> 	Code Name  | Mu Sigma Max | SpFMCLo SpFMCHi SpHiPr SuFMCLo SuFMCHi SuFMCPr FaFMCLo FaFMCHi FaHiPr    | OpenFuel NumFires 
+>> -----------  ------------   ------------------------------------------------------------------------   ----------------
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	FR1	5.11	1.74	100000	95	175	0.05	40	120	0.89	40	120	0.1	50	30
+2	FR2	5.11	1.74	100000	135	175	0.05	45	130	0.89	45	120	0.1	50	21
+3	FR3	5.11	1.74	100000	135	175	0.05	45	130	0.89	45	120	0.1	50	21
+
+
+InitialFireEcoregionsMap  ../../../../LC_FireRegions.tif
+DynamicEcoregionTable
+>>Year	FileName
+
+GroundSlopeFile       ../../../../lc_slppctFI.tif
+UphillSlopeAzimuthMap 	../../../../lc_uphillAzFI.tif
+
+SeasonTable
+
+>> Leaf Proportion Percent DayLength
+>> Name status Fire Curing Proportion
+>> ---- ------- ---------- ------- -------
+   Spring  LeafOff  0.05     0		1.0
+   Summer  LeafOn   0.82     51		1.0
+   Fall    LeafOff  0.13     100	1.0
+
+InitialWeatherDatabase  ../../../../LC_Contemporary_FW.csv
+
+DynamicWeatherTable
+>>	Year	FileName
+
+FuelTypeTable										
+										
+>>	Fuel Input Table
+>>      ----------------							
+>>	Base Type	Code	IgnProb		a	b	c	q	BUI	maxBE	CBH
+>>     -----------    -------- ---------       ----    -----   -----   -----   ------- -----   -----
+			
+50	Open		O1b	0.01	250	0.035	1.7	1.00	1	1		0	<<Open
+
+1	Deciduous	D1	0.005	30	0.015	2	0.90	32	1.179	1	<<Oak only
+2	Deciduous	D1	0.005	30	0.015	2	0.90	32	1.179	2	<<Oak only
+
+3	Deciduous	D1	0.005	180	0.0232	6	1		85	2		0	<<PJ woodland
+4	Deciduous	D1	0.005	180	0.0232	6	1		90	2		1	<<PJ woodland
+
+5	Conifer		C7	0.01	90	0.02	3.2	0.85	64	1.321	1	<<Ponderosa Oak
+6	Conifer		C7	0.01	90	0.02	3	0.85	62	1.261	2	<<Ponderosa Oak
+7	Conifer		C7	0.01	90	0.022	3	0.85	62	1.261	5	<<Ponderosa Oak
+
+8	Deciduous	D1	0.01	30	0.02	1.6	0.90	32	1.168	0	<<Aspen Oak
+9	Deciduous	D1	0.01	30	0.02	1.6	0.90	32	1.150	2	<<Aspen Oak
+10	Deciduous	D1	0.01	30	0.022	1.6	0.90	32	1.179	5	<<Aspen Oak
+
+11	Conifer		C5	0.01	110	0.028	3.2	0.80	64	1.321	1	<<Mixed Conifer
+12	Conifer		C5	0.01	110	0.028	3.2	0.80	64	1.321	2	<<Mixed Conifer
+13	Conifer		C5	0.01	110	0.028	3	0.80	66	1.321	5	<<Mixed Conifer
+
+SeverityCalibrationFactor  1.0
+
+FireDamageTable
+>> Cohort Age       FireSeverity - 
+>> % of longevity   FireTolerance
+>> --------------   --------------
+    5%		-2
+   10%		-1
+   30%		 0
+   50%		 1
+   80%		 2   << to account for some topography mediated refugia.
+   100%		 3
+
+
+MapNames  fire/severity-{timestep}.img
+LogFile   dynamic-fire-test-log.csv
+SummaryLogFile fire/summary-log.csv

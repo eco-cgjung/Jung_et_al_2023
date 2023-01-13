@@ -1,0 +1,23 @@
+>>Last edited: 1 August 2018					
+>> Author: a.keyser					
+					
+LandisData		"PnETGenericParameters"			
+					
+PnETGenericParameters			Value		
+>>------------------------------------------------					
+MaxCanopyLayers				2		<< less than or equal to 5
+IMAX					10		<< default 10
+PreventEstablishment			FALSE		<< T/F
+DVPD1					0.05		
+DVPD2					2		
+BFolResp				0.1		<< 0.0-1.0 proportion
+TOroot					0.02		<< 0.0-1.0 proportion
+TOwood					0.01		<< 0.0-1.0 proportion
+Q10					2		<< 0.0 - 10.0
+FolLignin				0.2		<< 0.0-0.8 gr/gr
+KWdLit					0.01		<< 0.0 -0.4 proportion/yr
+InitialNSC				7		<< greater than 0g		
+CFracBiomass				0.45		<< 0.0-1.0 proportion
+PrecipEvents				11		<< greater than 1.0 count, default 11
+Wythers					TRUE		<< T/F
+DTEMP					FALSE		<< T/F

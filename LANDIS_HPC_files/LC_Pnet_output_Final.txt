@@ -1,0 +1,28 @@
+>> Last edited: 31 oct 2018								
+>> Author: a.keyser								
+								
+LandisData		"Output-PnET"					
+								
+Timestep 		1	<<years					
+Species			All						
+								
+>>Biomass				output/biomass/{species}/Biomass_{timestep}.img				<<g/m2  wood and roots, no foliage
+AnnualPsn			output/AnnualPsn/{species}/AnnualPsn-{timestep}.img				<<g/m2
+>>BelowgroundBiomass		output/BGB/{species}/BGB-{timestep}.img					<<g/m2 roots only
+>>WoodyDebris			output/WoodyDebris/WoodyDebris-{timestep}.img				<<g/m2
+>>Litter				output/NonWoodyDebris/Litter-{timestep}.img				<<g/m2
+Water				output/SoilWater/water-{timestep}.img					<<mm
+LeafAreaIndex			output/LeafAreaIndex/{species}/lai-{timestep}.img			<<m2
+>>SubCanopyPAR			output/SubCanopyPAR/SCpar-{timestep}.img				<<W/m2
+>>AgeDistribution			output/AgeDist/{species}/age-{timestep}.img				<< #cohorts
+AbovegroundBiomass		output/AGB/{species}/AGB-{timestep}.img					<<g/m2  aboveground wood and foliage
+Establishment			output/Establishment/{species}/Establish-{timestep}.img			<< #cohorts
+>>EstablishmentProbability	output/EstabProb/{species}/EstabProb-{timestep}.img			<< #cohorts
+CohortsPerSpecies		output/CohortPSpp/{species}/CohortPerSpp-{timestep}.img			<< count
+>>MonthlyMaintResp		output/RESPmMonth/{species}/mRm-{timestep}.img				<<g/m2  
+MonthlyNetPsn		        output/NetPsnMonth/{species}/mNPP-{timestep}.img		        <<g/m2  								
+>>MonthlyGrossPsn		        output/GrossPsnMonth/{species}/mGPP-{timestep}.img			<<g/m2  								
+>>MonthlyFolResp	                output/RESPfMonth/{species}/mRf-{timestep}.img				<<g/m2  		 							
+EstablishmentTable 		output/EstablishmentTable.csv
+MortalityTable 			output/MortalityTable.csv
+CohortBalance 			output/TotalCohorts.csv
